@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+        // Get the current path
+        const path = window.location.pathname;
+        // Remove the repository name from the path if it exists
+        const cleanPath = path.replace('/Portfolio-Website/', '/');
+        // Redirect to the main index.html with the clean path
+        window.location.href = '/Portfolio-Website' + (cleanPath === '/' ? '' : cleanPath);
+    </script>
+</head>
+<body>
+    Redirecting...
+</body>
+</html>
