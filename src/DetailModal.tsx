@@ -397,6 +397,10 @@ export function DetailModal({ isOpen, onClose, title, subtitle, content, gallery
                           <BookOpen size={18} />
                           <span>Course</span>
                         </a>
+                        <a href="https://drive.google.com/drive/folders/1XVCXil2svgRLG7J48XaKXR-xa9FIezzG" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-midnight border-2 border-midnight font-body font-semibold rounded-full hover:bg-midnight hover:text-white hover:border-white transition-all duration-300">
+                          <BookOpen size={18} />
+                          <span>Slides</span>
+                        </a>
                       </>
                     )}
                     {title === 'Innova Market Insights' && (
