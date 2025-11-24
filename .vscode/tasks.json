@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build and check dist",
+			"type": "shell",
+			"command": "npm run build && ls -la dist",
+			"group": "build"
+		}
+	]
+}
